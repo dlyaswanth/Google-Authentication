@@ -1,0 +1,29 @@
+<div class="right">
+    <h4>Information</h4>
+    <img [src]="userDetails[0]?.photoUrl" alt="user-avatar" class="user-avatar" id="url"/>
+    <p class="mb-2">
+        <span class="font-weight-bold">Name: </span>
+      </p>
+      <input type="text" value={{userDetails[0]?.firstName}}  id="firstName"/>
+      <p class="mb-2">
+        <span class="font-weight-bold">Email Address </span></p>
+        <input type="text" value={{userDetails[0]?.email}}  id="email"/>
+      
+      <p class="mb-2">
+          <span class="font-weight-bold">Age</span></p>
+          <input type="number" value="age" id="age"/>
+
+      
+      <p class="mb-2">
+        <span class="font-weight-bold" value="language" >Language perferance</span> </p>
+        <input type="text" id="language"/>
+   
+    <p class="mb-2">
+        <span class="font-weight-bold" value="phonenumber" >Phone Number *</span>  </p>
+        <input type="tel" id="phoneNumber"/>
+  <br/>
+  <br />
+  <p class="mb-2"><input type="checkbox" class="check" checked="checked" /> Confirm , Lorem ipsum of the text placeholder
+  </p>
+  <button type="submit" style="background-color: grey;" (click)="postdata()">Save</button>
+</div>
