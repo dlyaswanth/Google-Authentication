@@ -29,7 +29,7 @@ import { Details } from './details/details.component';
           {
             id: GoogleLoginProvider.PROVIDER_ID,
             provider: new GoogleLoginProvider(
-              '107991574446-vmvbd18423jkkl49cgsqmvuqjdjr00l6.apps.googleusercontent.com' // add web app client id
+              '' // add web app client id
             )
           }
         ]
